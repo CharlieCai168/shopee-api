@@ -15,7 +15,11 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+<<<<<<< Updated upstream
         \URL::forceScheme('https');
+=======
+    //    \URL::forceScheme('https');
+>>>>>>> Stashed changes
         Schema::defaultStringLength(191);
 
     }
